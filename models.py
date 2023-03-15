@@ -11,6 +11,7 @@ class Role(str,Enum):
     admin = "admin"
     user = "user"
     student = "student"
+    ktvana = "ktvana"
 
 class User(BaseModel):
     id: Optional[UUID] = uuid4()
